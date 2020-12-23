@@ -1,0 +1,99 @@
+.container-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3a60b2;
+  line-height: 50px;
+}
+.content-menu {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.logo-menu {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.logo-menu img {
+  width: 200px;
+  height: 100px;
+  display: block;
+  cursor: pointer;
+}
+
+.content-menu img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-right: 30px;
+}
+.welcome {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 1000;
+  margin-right: 10px;
+}
+.fa-bell {
+  position: relative;
+  top: 14px;
+  margin-right: 5px;
+  font-size: 25px;
+  color: #d7a64a;
+}
+.nofication {
+  font-size: 15px;
+  position: relative;
+  top: 28px;
+  right: -23px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  transition-duration: 1s;
+  z-index: 10;
+}
+.container-content{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.container-content-menu{
+  width: 20%;
+  height: 87vh;
+  background-color: #5579C7;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.container-content-menu ul li{
+  border-bottom: solid 1px black;
+  padding: 30px;
+  cursor: pointer;
+}
+.container-content-menu ul li:hover{
+  background-color: white;
+}
+
+.active-menu{
+  background-color: white;
+}
+.container-content-menu ul li a{
+  color: black;
+  padding: 30px;
+}
+.container-content-menu ul li a:hover{
+  color: black;
+  text-decoration: none;
+}
+.container-content-main{
+  width: 80%;
+  height: 87vh;
+}

@@ -1,0 +1,267 @@
+.nav-area a {
+  text-decoration: none;
+  color: #000;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  transition: 0.25s ease-in;
+}
+.nav-area li {
+  display: inline-block;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.menu img {
+  cursor: pointer;
+}
+.nav-area li:hover {
+  background-color: #88b2c0;
+}
+.nav-area li:hover a {
+  color: #fff;
+}
+
+.nav-area li a {
+  font-weight: 900;
+}
+
+.nav-area i {
+  cursor: pointer;
+}
+
+.nav-area {
+  margin-right: 50px;
+}
+
+.scrolled {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #d3d5d5;
+  opacity: 0.9;
+  z-index: ̀̀20;
+}
+
+.container-cart {
+  width: 25%;
+  height: 767px;
+  background-color: #d3d5d5;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.toggle-off {
+  position: fixed;
+  top: 0;
+  right: -25%;
+  transition-duration: 1s;
+}
+
+.toggle-on {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition-duration: 1s;
+}
+
+.fa-times {
+  font-size: 40px;
+  cursor: pointer;
+  padding-right: 15px;
+}
+
+.fa-times:hover {
+  color: #f98494;
+}
+
+.total-product-cart {
+  font-size: 15px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  transition-duration: 1s;
+}
+.container-carts:hover .total-product-cart {
+  background-color: white;
+  color: black;
+}
+.container-carts {
+  position: relative;
+}
+
+.top-cart {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+  background-color: #b8c5c8;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  box-shadow: 2px #b8c5c8;
+}
+
+.cart-name {
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+.cart-name i {
+  margin-right: 5px;
+}
+
+.main-cart {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-cart img {
+  width: 90px;
+  height: 120px;
+  margin-right: 10px;
+}
+.cart-products__qty input {
+  width: 31px;
+  text-align: center;
+  height: 31px;
+}
+
+cart-products__qty span {
+  border: thin;
+  border: 1;
+  border-color: black;
+  width: 20px;
+  height: 20px;
+}
+
+.cart-info-product {
+  padding-right: 40px;
+  width: 130px;
+}
+
+.cart-info-product p {
+  padding-bottom: 15px;
+}
+
+.cart-info-product p:first-child {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.qty {
+  cursor: pointer;
+  padding: 6px 12px;
+  border: 1px solid;
+  background-color: white;
+  border-radius: 2px;
+}
+
+
+.product-cart {
+  margin-bottom: 20px;
+}
+
+.product-cart:last-child {
+  margin-bottom: 50px;
+}
+
+hr {
+  width: 80%;
+  border-top: 1px solid black;
+  margin: 0;
+}
+
+.total-price {
+  display: flex;
+  margin: 30px 0 30px 0;
+}
+
+.total-price h4 {
+  margin-right: 200px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.total-price p {
+  color: red;
+  font-weight: 600;
+}
+
+.text{
+  font-size: 25px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+  font-weight: 600;
+  border: solid 1px white;
+}
+.text:hover{
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+}
+
+.cart-container {
+    width: 90%;
+    height: 60%;
+    overflow: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .hidden{
+      display: none;
+      text-decoration: none;
+  }
+  .delete{
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  a:hover{
+    text-decoration: none;
+  }
