@@ -1,8 +1,8 @@
 {
+  "homepage": "http://phamthongv1.github.io/shoes_store",
   "name": "shoestore",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://phamthongv1.github.io/shoes_store",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -29,13 +29,13 @@
     "validator": "^13.1.17"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build",
     "start": "set PORT=8000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "json-server": "json-server --watch db.json",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
